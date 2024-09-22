@@ -1,0 +1,162 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+#nav{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+
+}
+
+#nav-part1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#nav h3{
+  font-size: 17px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+
+#nav i{
+  font-size: 17px;
+  font-weight: 500;
+  border: 1.5px solid black;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+
+#nav h1{
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#nav button{
+  padding: 7px 12px;
+  border-radius: 50px;
+  border: 1.5px solid black;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#btn2{
+  border: none;
+  color: white;
+  background-color: orangered;
+}
+
+#main>h1{
+  font-size: 130px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+  text-align: center;
+}
+
+img{
+  height: 350px;
+  width: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 20px;
+}
+
+#img1{
+  transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img2{
+  transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+  transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+h5{
+  font-size: 17px;
+  position: absolute;
+  bottom: 5%;
+  left: 50px;
+
+}
+
+#nav-part4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+#arrow{
+    font-size: 17px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 8px 10px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 5%; 
+}
+
+#nav-part5{
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: absolute;
+  right: 50px;
+  bottom: 10%;
+}
+
+#nav-part5 i{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h4{
+  font-size: 17px;
+  position: absolute;
+  bottom: 5%;
+  right: 50px;
+}
+
+h2{
+  font-size: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50px;
+  padding: 5px;
+  background-color: white;
+  color: rgb(75, 67, 67); 
+}
